@@ -7,6 +7,18 @@ layout: home
 
 2024 年 6 月 12 日に開催される IoP ワークショップのための資料です。
 
+## 事前配布資料
+
+IoP ワークショップの事前配布資料です。当日のハンズオンに必要な環境構築の方法が記載されています。
+
+- [事前配布資料](https://ptk-y-nakahira.github.io/iop-lec-preparation/)
+
+## 個人配布資料
+
+参加者ごとに配布される資料です。当日番号配布するので、指定されたフォルダを使用してください
+
+- [個人配布資料](https://share.1password.com/s#g5uD4aOwmoly1gN7EtAJDGtewFB3q8EYrnt4O835RvQ)
+
 ## Arduino IDE
 
 ### 1. LED の点灯
