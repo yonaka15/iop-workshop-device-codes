@@ -6,8 +6,8 @@ layout: page
 ```cpp
 /*  MQTT通信をするための拡張機能 PubSubClientを使います。
     下記URLからダウンロードして、Ardino IDEの
-    スケッチ -> ライブラリをインクルード -> .ZIP形式のライブラリをインストール
-    を選択して、ダウンロードしたファイルを選択してください。
+    スケッチ -> ライブラリをインクルード -> ライブラリを管理
+    からpubsubclientをインストールしてください。
     https://www.arduino.cc/reference/en/libraries/pubsubclient/
  */
 
