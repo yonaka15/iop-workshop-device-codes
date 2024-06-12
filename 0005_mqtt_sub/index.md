@@ -112,7 +112,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   }
   Serial.println();
 
-  // 0.1秒間LEDを点滅させます
+  // 0.1秒間LEDを点滅させます(デモ)
   digitalWrite(32, HIGH); // LEDを点灯
   delay(100); // 0.1秒待機
   digitalWrite(32, LOW); // LEDを消灯

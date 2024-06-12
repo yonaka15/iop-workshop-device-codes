@@ -40,8 +40,8 @@ layout: page
 #include <PubSubClient.h>
 #include <ArduinoJson.h>
 
-#define SDA 27 // SDAピンの設定 配線と一致していれば何番でも可
-#define SCL 14 // SCLピンの設定 配線と一致していれば何番でも可
+#define SDA 21 // SDAピンの設定 配線と一致していれば何番でも可
+#define SCL 22 // SCLピンの設定 配線と一致していれば何番でも可
 
 #define SHT31_ADDRESS 0x45
 #define SHT31_SOFT_RESET_MSB 0x30
@@ -81,7 +81,7 @@ void setup() {
                         // Arduino IDEの「シリアルモニタ」の速度を
                         // この数値に合わせてください
 
-  setup_sht32(SDA, SCL); // SHT31の初期設定
+  setup_sht31(SDA, SCL); // SHT31の初期設定
                          // SDA: 27番ピン, SCL: 14番ピンを指定します
 
   // Wi-Fiに接続します(下に関数が定義されています)
@@ -151,7 +151,7 @@ bool is_wifi_connected() {
   return true;
 }
 
-void setup_sht32(uint8_t sda, uint8_t scl) {
+void setup_sht31(uint8_t sda, uint8_t scl) {
   // 使用するピンを設定
   Wire.begin(sda, scl); // SDA: 27番ピン, SCL: 14番ピン
                         // WireはI2C通信を行うためのライブラリです
