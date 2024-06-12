@@ -13,6 +13,12 @@ IoP ワークショップの事前配布資料です。当日のハンズオン�
 
 - [事前配布資料](https://ptk-y-nakahira.github.io/iop-lec-preparation/)
 
+## 当日資料
+
+本日使うスライドを置いています
+
+- [当日資料](https://share.1password.com/s#jQ-LmexAohspvhsRDgA8-COaa1P96SwYjBeeoS0T-_Q)
+
 ## 個人配布資料
 
 参加者ごとに配布される資料です。当日番号を配布するので、指定されたフォルダを使用してください
