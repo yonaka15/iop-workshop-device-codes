@@ -15,9 +15,13 @@ IoP ワークショップの事前配布資料です。当日のハンズオン�
 
 ## 個人配布資料
 
-参加者ごとに配布される資料です。当日番号配布するので、指定されたフォルダを使用してください
+参加者ごとに配布される資料です。当日番号を配布するので、指定されたフォルダを使用してください
 
-- [個人配布資料](https://share.1password.com/s#g5uD4aOwmoly1gN7EtAJDGtewFB3q8EYrnt4O835RvQ)
+- [個人配布資料](https://share.1password.com/s#3ywoKWNS_TePjkih8Ms8JGCrEhn3AR31hxBzovMZZhI)
+
+## SAWACHI 詳細分析画面
+
+- [SAWACHI 詳細分析画面 (Model Method)](https://testbed-tech-mm.sawachi.com/)
 
 ## Arduino IDE
 
