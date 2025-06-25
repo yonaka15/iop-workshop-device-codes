@@ -17,7 +17,7 @@ layout: page
 // - USBケーブル
 
 // 1. SHT31をブレッドボードに差し込む
-// 2. SHT31のVCCをESP32の3.3Vに、GNDをGNDに、SCLを14番ピンに、SDAを27番ピンに接続
+// 2. SHT31のVCCをESP32の3.3Vに、GNDをGNDに、SCLを22番ピンに、SDAを21番ピンに接続
 
 // SHT31の仕様
 // https://akizukidenshi.com/catalog/g/g112125/
@@ -25,8 +25,8 @@ layout: page
 
 #include <Wire.h>
 
-#define SDA 27 // SDAピンの設定 配線と一致していれば何番でも可
-#define SCL 14 // SCLピンの設定 配線と一致していれば何番でも可
+#define SDA 21 // SDAピンの設定 配線と一致していれば何番でも可
+#define SCL 22 // SCLピンの設定 配線と一致していれば何番でも可
 
 #define SHT31_ADDRESS 0x45
 #define SHT31_SOFT_RESET_MSB 0x30
@@ -49,7 +49,7 @@ void setup() {
                         // この数値に合わせてください
 
   setup_sht32(SDA, SCL); // SHT31の初期設定
-                         // SDA: 27番ピン, SCL: 14番ピンを指定します
+                         // SDA: 21番ピン, SCL: 22番ピンを指定します
 
 }
 
@@ -57,7 +57,7 @@ void loop() {
   float temp, hum; // 温湿度データを格納する変数
   read_sht31(&temp, &hum); // 温湿度データを取得
                            // NOTE: 変数について…
-                           // temp, humという"ハコ"を先に用意して
+                           // temp, humという'''ハコ'''を先に用意して
                            // そのハコに温湿度データを入れるイメージです
 
 
@@ -75,7 +75,7 @@ void loop() {
 
 void setup_sht32(uint8_t sda, uint8_t scl) {
   // 使用するピンを設定
-  Wire.begin(sda, scl); // SDA: 27番ピン, SCL: 14番ピン
+  Wire.begin(sda, scl); // SDA: 21番ピン, SCL: 22番ピン
                         // WireはI2C通信を行うためのライブラリです
 
 
