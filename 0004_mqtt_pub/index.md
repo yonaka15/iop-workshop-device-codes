@@ -5,10 +5,7 @@ layout: page
 
 ```cpp
 /*  MQTT通信をするための拡張機能 PubSubClientを使います。
-    下記URLからダウンロードして、Ardino IDEの
-    スケッチ -> ライブラリをインクルード -> ライブラリを管理
-    からpubsubclientをインストールしてください。
-    https://www.arduino.cc/reference/en/libraries/pubsubclient/
+    Arduino IDEのライブラリマネージャから `PubSubClient` をインストールしてください。
  */
 
 #include <WiFi.h>
@@ -44,7 +41,7 @@ void loop() {
   // --- MQTT通信 --- //
   //------------------//
 
-  mqtt_publish_test("iopworkshop/test", "PromptK-Nakahira", "ありがとう");// トピック名、クライアントID、メッセージ を指定します
+  mqtt_publish_test("iopworkshop/test", "PromptX-Nakahira", "ありがとう");// トピック名、クライアントID、メッセージ を指定します
   // クライアントID、メッセージは自由に指定してください
   // ただし、クライアントIDが重複すると接続できません
   // クライアントIDは23文字以内の半角英数字で指定します
