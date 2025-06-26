@@ -30,7 +30,7 @@ layout: page
 #define SHT31_SINGLE_MEASUREMENT_LSB 0x00
 
 // WiFi settings
-const char* ssid = "iopworkshop20240612";
+const char* ssid = "iopworkshop20250627";
 const char* password = "iopworkshop";
 
 WiFiClient espClient;
