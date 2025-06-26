@@ -7,7 +7,7 @@ layout: page
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid     = "iopworkshop20240612";
+const char* ssid     = "iopworkshop20250627";
 const char* password = "iopworkshop";
 
 void setup()

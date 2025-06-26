@@ -11,7 +11,7 @@ const int buttonPin = 13;    // ボタンスイッチの接続ピン
 int buttonState = 0;        // ボタンの状態を保存する変数
 
 // WiFi settings
-const char* ssid = "iopworkshop20240612";
+const char* ssid = "iopworkshop20250627";
 const char* password = "iopworkshop";
 
 WiFiClient espClient;
