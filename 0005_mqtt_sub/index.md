@@ -5,9 +5,7 @@ layout: page
 
 ```cpp
 /*  MQTT通信をするための拡張機能 PubSubClientを使います。
-    下記URLからダウンロードして、Ardino IDEの
-    スケッチ -> ライブラリをインクルード -> ライブラリを管理
-    からpubsubclientをインストールしてください。
+    Arduino IDEのライブラリマネージャから `PubSubClient` をインストールしてください。
 
  */
 // https://www.arduino.cc/reference/en/libraries/pubsubclient/
@@ -52,7 +50,8 @@ void loop() {
   //------------------//
 
   const char* topic = "iopworkshop/test";
-  const char* device_id = "PromptK-Nakahira-button";
+  const char* device_id = "PromptX-Nakahira-button";
+  // device_id (クライアントID) はMQTTブローカー内でユニークである必要があります。他のデバイスと重複しないように設定してください。
   mqtt_subscribe_test(topic, device_id); // トピック名を指定
 }
 
