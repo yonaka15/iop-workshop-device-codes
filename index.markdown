@@ -13,7 +13,7 @@ layout: home
 
 IoP ワークショップの事前配布資料です。当日のハンズオンに必要な環境構築の方法が記載されています。
 
-- [事前配布資料](https://ptk-y-nakahira.github.io/iop-lec-preparation/)
+- [事前配布資料](https://ptk-y-nakahira.github.io/typst-iop-advance-materials/)
 
 <div style="height: 80px;"></div>
 
