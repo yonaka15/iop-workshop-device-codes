@@ -1,0 +1,28 @@
+---
+---
+
+@import "minima";
+
+// Make the highlight block a positioning context
+.highlight {
+  position: relative;
+}
+
+// Style for our custom copy button
+.rouge-copy {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  padding: 0.25em 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  color: #333;
+  cursor: pointer;
+  font-size: 0.8em;
+  z-index: 1; // Ensure button is on top
+}
+
+.rouge-copy:hover {
+  background-color: #eef;
+}
