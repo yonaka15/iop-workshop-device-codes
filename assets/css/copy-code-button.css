@@ -9,6 +9,7 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.8em;
+  z-index: 1; /* Ensure the button is on top */
 }
 
 .copy-code-button:hover {
@@ -16,8 +17,6 @@
 }
 
 /* Adjust the parent of the pre block to allow positioning of the button */
-/* This might need to be adjusted based on the actual HTML structure of the code blocks */
-pre.highlight {
+.highlight {
   position: relative; /* Ensure the parent is a positioned element for absolute positioning of the button */
-  padding-top: 2.5em; /* Add some padding to the top of the code block so the button doesn't overlap code */
 }
