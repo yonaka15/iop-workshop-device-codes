@@ -63,7 +63,6 @@ void http_test(String message) {
 
   http.begin("http://192.168.254.254:1880/api"); // URLに接続します
 
-  // こんにちわというメッセージを送信します
   int httpResponseCode = http.POST(message); // "POST"メソッドでリクエストを送信します
 
   if (httpResponseCode == 200) { // 正常に受信できた場合
