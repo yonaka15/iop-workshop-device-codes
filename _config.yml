@@ -23,7 +23,7 @@ title: IoP技術者講座
 description: >- # this means to ignore newlines until "baseurl:"
   IoP技術者講座の資料を公開しています。
 baseurl: "/iop-workshop-device-codes" # the subpath of your site, e.g. /blog
-url: "https://yonaka15.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ptk-y-nakahira.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username: jekyll
 
